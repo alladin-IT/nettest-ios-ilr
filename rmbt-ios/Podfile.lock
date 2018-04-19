@@ -1,0 +1,114 @@
+PODS:
+  - ActionKit (2.3.2)
+  - Alamofire (4.6.0)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - ARChromeActivity (1.0.5)
+  - BartyCrouch (3.8.1)
+  - BCGenieEffect (1.1)
+  - CocoaAsyncSocket (7.6.3)
+  - GCNetworkReachability (1.3.2)
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - KINWebBrowser (1.3.2):
+    - ARChromeActivity (= 1.0.5)
+    - TUSafariActivity (= 1.0.4)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (3.1.0)
+  - PopupDialog (0.6.2)
+  - Realm (3.0.2):
+    - Realm/Headers (= 3.0.2)
+  - Realm/Headers (3.0.2)
+  - RealmSwift (3.0.2):
+    - Realm (= 3.0.2)
+  - RMBTClient (0.0.3):
+    - Alamofire (~> 4.6.0)
+    - AlamofireObjectMapper (~> 5.0.0)
+    - CocoaAsyncSocket
+    - GCNetworkReachability (~> 1.3.2)
+    - RealmSwift (~> 3.0.2)
+    - XCGLogger (~> 6.0.2)
+  - SwiftGen (5.2.1)
+  - SwiftLint (0.24.2)
+  - TUSafariActivity (1.0.4)
+  - XCGLogger (6.0.2):
+    - XCGLogger/Core (= 6.0.2)
+  - XCGLogger/Core (6.0.2):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - ActionKit (~> 2.3.2)
+  - BartyCrouch (~> 3.8.1)
+  - BCGenieEffect (~> 1.1)
+  - CocoaAsyncSocket (from `https://github.com/robbiehanson/CocoaAsyncSocket.git`)
+  - GoogleMaps (~> 2.6.0)
+  - KINWebBrowser (~> 1.3.2)
+  - PopupDialog (~> 0.6.2)
+  - RMBTClient (from `../rmbt-ios-client`)
+  - SwiftGen (~> 5.2.1)
+  - SwiftLint (~> 0.24.2)
+  - TUSafariActivity (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ActionKit
+    - Alamofire
+    - AlamofireObjectMapper
+    - ARChromeActivity
+    - BartyCrouch
+    - BCGenieEffect
+    - GCNetworkReachability
+    - GoogleMaps
+    - KINWebBrowser
+    - ObjcExceptionBridging
+    - ObjectMapper
+    - PopupDialog
+    - Realm
+    - RealmSwift
+    - SwiftGen
+    - SwiftLint
+    - TUSafariActivity
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  CocoaAsyncSocket:
+    :git: https://github.com/robbiehanson/CocoaAsyncSocket.git
+  RMBTClient:
+    :path: "../rmbt-ios-client"
+
+CHECKOUT OPTIONS:
+  CocoaAsyncSocket:
+    :commit: ec6c373de9eb7606a229ab927d1cce432073cc26
+    :git: https://github.com/robbiehanson/CocoaAsyncSocket.git
+
+SPEC CHECKSUMS:
+  ActionKit: cf7ca5781f4a43342384d872105fadd58985f416
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  ARChromeActivity: 821c7849b566f49583987468733a896fee35aa4d
+  BartyCrouch: 7a57b80f80c94deb1db99942eebf14f9fad927fe
+  BCGenieEffect: 3efb235716f121caa6b26040bfd0ae11e1bae4b4
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  GCNetworkReachability: 2a7dd53d362220326b3e38df68c91b3ef84418d1
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
+  KINWebBrowser: 27aa857a2aa39063ed102cca781d130b679d205f
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  PopupDialog: d4336d7274a6aa3af4cb26d8b6691510eba90cc3
+  Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
+  RealmSwift: 695393add1b8f9d5fa75dd16e6355cf3935f71e2
+  RMBTClient: 48369d59940236aa02808c823351432f732520eb
+  SwiftGen: 444b4c467e512a4812b8a800d731643fd265139e
+  SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+  XCGLogger: c9601cae9a8912de34a58666ba931ed3d624dd31
+
+PODFILE CHECKSUM: cc466b5f653d4c80fd4590a6b83087016b959a95
+
+COCOAPODS: 1.5.0

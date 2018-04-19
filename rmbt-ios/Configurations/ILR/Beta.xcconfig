@@ -1,0 +1,6 @@
+#include "../../Pods/Target Support Files/Pods-All-RMBT_ILR/Pods-All-RMBT_ILR.beta.xcconfig"
+#include "Shared.xcconfig"
+
+OTHER_CFLAGS = -DDEBUG=1 // keep at debug for now
+
+OTHER_SWIFT_FLAGS = -DBETA

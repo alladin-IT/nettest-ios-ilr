@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="alladin-icons.ttf">
+            <string>alladin-icons</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MeasurementDetailGroupSectionHeaderView" customModule="RMBT" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="263" height="111"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uiq-Fs-qMG">
+                    <rect key="frame" x="0.0" y="0.0" width="263" height="111"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="f" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16H-MI-Xhl">
+                            <rect key="frame" x="111.5" y="38" width="40" height="40"/>
+                            <fontDescription key="fontDescription" name="alladin-icons" family="alladin-icons" pointSize="40"/>
+                            <color key="textColor" red="0.56862745100000001" green="0.070588235289999995" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="i18n_enabled" value="NO"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOM-HV-UYy">
+                            <rect key="frame" x="112.5" y="88" width="39.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="i18n_enabled" value="NO"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="16H-MI-Xhl" firstAttribute="centerX" secondItem="Uiq-Fs-qMG" secondAttribute="centerX" id="9pn-SU-ejo"/>
+                        <constraint firstAttribute="bottom" secondItem="QOM-HV-UYy" secondAttribute="bottom" constant="7" id="DQs-Wh-qgs"/>
+                        <constraint firstItem="QOM-HV-UYy" firstAttribute="top" secondItem="16H-MI-Xhl" secondAttribute="bottom" constant="10" id="hva-2M-ygi"/>
+                        <constraint firstItem="QOM-HV-UYy" firstAttribute="centerX" secondItem="Uiq-Fs-qMG" secondAttribute="centerX" id="nRK-d5-S6L"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Uiq-Fs-qMG" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="75j-eN-FyB"/>
+                <constraint firstItem="Uiq-Fs-qMG" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8Xi-WH-U1t"/>
+                <constraint firstItem="Uiq-Fs-qMG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="l0Q-Jf-XvG"/>
+                <constraint firstItem="Uiq-Fs-qMG" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="m6K-qC-kM6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconLabel" destination="16H-MI-Xhl" id="jA2-JP-BTL"/>
+                <outlet property="titleLabel" destination="QOM-HV-UYy" id="99m-sV-rmw"/>
+            </connections>
+            <point key="canvasLocation" x="45.5" y="-196.5"/>
+        </view>
+    </objects>
+</document>

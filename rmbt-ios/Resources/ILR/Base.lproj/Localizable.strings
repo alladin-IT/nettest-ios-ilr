@@ -1,0 +1,323 @@
+/* (No Commment) */
+"test.skiporwait" = "Skip or wait %ds";
+
+/* (No Commment) */
+"connectivity.cellular" = "Cellular";
+
+/* (No Commment) */
+"connectivity.not-connected" = "Not connected";
+
+/* (No Commment) */
+"connectivity.wifi" = "WiFi";
+
+/* (No Commment) */
+"general.alertview.cancel" = "Cancel";
+
+/* (No Commment) */
+"general.alertview.close" = "Close";
+
+/* News alert view button */
+"general.alertview.dismiss" = "Dismiss";
+
+/* (No Commment) */
+"general.alertview.error" = "Error";
+
+/* (No Commment) */
+"general.alertview.ok" = "OK";
+
+/* (No Commment) */
+"general.alertview.reload" = "Reload";
+
+/* (No Commment) */
+"general.alertview.success" = "Success";
+
+/* (No Commment) */
+"history.filter.device" = "Device";
+
+/* (No Commment) */
+"history.filter.networktype" = "Network Type";
+
+/* Name of a test */
+"history.qos.detail.test" = "Test";
+
+/* Details */
+"history.qos.headline.details" = "Details";
+
+/* Tests */
+"history.qos.headline.tests" = "Tests";
+
+/* (No Commment) */
+"history.result.headline.details" = "Details";
+
+/* (No Commment) */
+"history.result.headline.map" = "Map";
+
+/* (No Commment) */
+"history.result.headline.measurement" = "Measurement";
+
+/* (No Commment) */
+"history.result.headline.network" = "Network";
+
+/* (No Commment) */
+"history.result.headline.qos" = "Quality of Service Tests";
+
+/* (No Commment) */
+"history.result.map.accuracy" = "Accuracy";
+
+/* (No Commment) */
+"history.result.map.invalid-coordinates" = "Invalid Coordinates";
+
+/* (No Commment) */
+"history.result.map.latitude" = "Latitude";
+
+/* (No Commment) */
+"history.result.map.longitude" = "Longitude";
+
+/* (No Commment) */
+"history.result.map.result" = "Map Result";
+
+/* (No Commment) */
+"history.result.map.show" = "Show Map";
+
+/* History result more details */
+"history.result.more-details" = "More Details";
+
+/* (No Commment) */
+"history.result.qos.details" = "Details";
+
+/* (No Commment) */
+"history.result.qos.details.description" = "Description";
+
+/* (No Commment) */
+"history.result.qos.details.failed" = "Failed";
+
+/* (No Commment) */
+"history.result.qos.details.succeeded" = "Succeeded";
+
+/* History result qos results */
+"history.result.qos.results" = "Results";
+
+/* History result qos results detail */
+"history.result.qos.results-detail" = "Result Details";
+
+/* History result time */
+"history.result.time" = "Time";
+
+/* (No Commment) */
+"history.sync.code-text" = "Sync Code";
+
+/* (No Commment) */
+"history.sync.code.copy" = "Copy Code";
+
+/* (No Commment) */
+"history.sync.code.enter" = "Enter Code";
+
+/* (No Commment) */
+"history.sync.code.enter-text" = "Enter Sync Code:";
+
+/* (No Commment) */
+"history.sync.code.request" = "Request Code";
+
+/* (No Commment) */
+"history.sync.merge" = "To merge history of two different devices, request sync code of one device and enter it into the other.";
+
+/* (No Commment) */
+"history.sync.success-message" = "History synchronisation was successful.";
+
+/* (No Commment) */
+"history.sync.sync" = "Sync";
+
+/* (No Commment) */
+"history.uibar.filter" = "Filter";
+
+/* (No Commment) */
+"history.uibar.sync" = "Sync";
+
+/* (No Commment) */
+"intro.location.question.message" = "To determine location, please enable location service in device settings.";
+
+/* (No Commment) */
+"intro.location.question.title" = "Using Location";
+
+/* (No Commment) */
+"intro.network.connection.name-unknown" = "Unknown";
+
+/* (No Commment) */
+"intro.network.connection.unavailable" = "No network connection available";
+
+/* (No Commment) */
+"intro.popup.hardware.app-ram" = "App RAM";
+
+/* (No Commment) */
+"intro.popup.hardware.cpu" = "CPU";
+
+/* (No Commment) */
+"intro.popup.hardware.system-ram" = "System RAM";
+
+/* (No Commment) */
+"intro.popup.hardware.usage" = "Hardware Usage";
+
+/* (No Commment) */
+"intro.popup.ip.connection-progress" = "Connection in Progress...";
+
+/* (No Commment) */
+"intro.popup.ip.connections" = "IP Connections";
+
+/* (No Commment) */
+"intro.popup.ip.no-ip-text" = "n/a";
+
+/* (No Commment) */
+"intro.popup.ip.v4-external" = "IPv4 External";
+
+/* (No Commment) */
+"intro.popup.ip.v4-internal" = "IPv4 Internal";
+
+/* (No Commment) */
+"intro.popup.ip.v6-external" = "IPv6 External";
+
+/* (No Commment) */
+"intro.popup.ip.v6-internal" = "IPv6 Internal";
+
+/* (No Commment) */
+"intro.popup.location" = "Location";
+
+/* (No Commment) */
+"intro.popup.location.accuracy" = "Accuracy";
+
+/* (No Commment) */
+"intro.popup.location.age" = "Age";
+
+/* (No Commment) */
+"intro.popup.location.altitude" = "Altitude";
+
+/* (No Commment) */
+"intro.popup.location.position" = "Position";
+
+/* (No Commment) */
+"intro.popup.location.source" = "Source";
+
+/* (No Commment) */
+"intro.popup.traffic.background" = "Background Traffic";
+
+/* (No Commment) */
+"intro.popup.traffic.download" = "Download Traffic";
+
+/* (No Commment) */
+"intro.popup.traffic.upload" = "Upload Traffic";
+
+/* (No Commment) */
+"map.callout.measurement" = "Measurement";
+
+/* (No Commment) */
+"map.callout.network" = "Network";
+
+/* Table section header title */
+"map.options.filter.overlay" = "Overlay";
+
+/* (No Commment) */
+"map.options.overlay.auto" = "Auto";
+
+/* (No Commment) */
+"map.options.overlay.heatmap" = "Heatmap";
+
+/* (No Commment) */
+"map.options.overlay.municipality" = "Municipality";
+
+/* (No Commment) */
+"map.options.overlay.points" = "Points";
+
+/* (No Commment) */
+"map.options.overlay.regions" = "Regions";
+
+/* (No Commment) */
+"map.options.overlay.settlements" = "Settlements";
+
+/* (No Commment) */
+"map.options.overlay.shapes" = "Shapes";
+
+/* (No Commment) */
+"map.options.overlay.whitespots" = "White Spots";
+
+/* (No Commment) */
+"measurement.abort.abort-button" = "Abort Test";
+
+/* (No Commment) */
+"measurement.abort.continue" = "Continue";
+
+/* (No Commment) */
+"measurement.abort.question" = "Do you really want to cancel the measurement?";
+
+/* (No Commment) */
+"measurement.abort.title" = "Cancel?";
+
+/* (No Commment) */
+"measurement.geo-location.failed" = "Could not determine current location.";
+
+/* (No Commment) */
+"measurement.unknown_error.message" = "Measurement was aborted due to an unknown error.";
+
+/* (No Commment) */
+"measurement.unknown_error.title" = "Measurement Error";
+
+/* (No Commment) */
+"test.aborted-message" = "Test aborted. App switched to background.";
+
+/* (No Commment) */
+"test.aborted-title" = "Test aborted";
+
+/* (No Commment) */
+"test.connection.could-not-connect" = "No sufficient connection established.";
+
+/* (No Commment) */
+"test.connection.error" = "Connection Error";
+
+/* (No Commment) */
+"test.connection.lost" = "Connection to measurement server lost. Test aborted.";
+
+/* (No Commment) */
+"test.continue-button" = "Continue";
+
+/* (No Commment) */
+"test.intro-message" = "WARNING! Each execution of %1$@ requires some data volume. The faster the tested connection the bigger the volume of data transmitted. %2$@ shall not be deemed responsible for excessive data consumption. When starting %1$@ the user is aware of possible data consumption and confirms his sole responsibility.";
+
+/* (No Commment) */
+"test.ok-button" = "OK";
+
+/* (No Commment) */
+"test.phase.download" = "Download";
+
+/* (No Commment) */
+"test.phase.init" = "Init";
+
+/* (No Commment) */
+"test.phase.ping" = "Ping";
+
+/* (No Commment) */
+"test.phase.upload" = "Upload";
+
+/* (No Commment) */
+"test.ping.unit" = "ms";
+
+/* (No Commment) */
+"test.qos.failed" = "Quality of Service Test failed.";
+
+/* (No Commment) */
+"test.repeat" = "Repeat Test";
+
+/* (No Commment) */
+"test.result.not-submitted" = "Test was completed, but results were not submitted to server.";
+
+/* (No Commment) */
+"test.speed.unit" = "MBit/s";
+
+/* (No Commment) */
+"test.speed.bit-unit" = "bit/s";
+
+/* (No Commment) */
+"test.try-again" = "Try Again";
+
+/* (No Commment) */
+"tos.message" = "I agree with %2$@'s PrivacyPolicy and Terms of Use for %1$@.";
+
+/* (No Commment) */
+"settings.ios11-language-text" = "Starting with iOS 11, direct links to the system settings language page don't work anymore. You can change your system language in Settings -> General -> Language & Region.";

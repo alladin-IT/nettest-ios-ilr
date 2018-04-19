@@ -1,0 +1,22 @@
+source 'https://rubygems.org'
+
+#
+gem 'cocoapods' #, '~> 1.0.0'
+gem 'cocoapods-playgrounds'
+gem 'xcodeproj'
+
+#
+gem 'xcpretty'
+
+# Deployment
+gem 'fastlane' #, '~> 1.102.0'
+#gem 'match'
+
+gem 'watchbuild'
+
+# localization
+gem 'fame'
+
+# Documentation
+gem 'jazzy'
+
